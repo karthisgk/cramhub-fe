@@ -1,0 +1,30 @@
+.comments-list.scrolable-content {
+    height: 300px;
+}
+
+.video-thumb {
+    float: none !important;
+}
+
+.post-content.scrolable-content {
+    height: 100%;
+}
+
+.post-content .post-study-content {
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.additional-files {
+    padding: 10px;
+    display: grid;
+}
+
+.additional-files > a {
+    padding: 5px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}

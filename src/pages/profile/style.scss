@@ -1,0 +1,31 @@
+.profile-page .author-thumb > .avatar,.profile-page .author-thumb > img[alt="author"] {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.profile-page .hash-tag-header {
+    bottom: 14px !important;
+}
+
+.profile-detail {
+    display: flex;
+}
+
+.profile-detail > div {
+    margin: 15px 0;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.profile-detail > div:hover {
+    background: #fff;
+    color: #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.profile-detail > div:last-child {
+    margin-right: 0px;
+}

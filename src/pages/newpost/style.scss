@@ -1,0 +1,41 @@
+.description-toggle {
+    margin-bottom: 0 !important;
+    padding: 10px;
+}
+
+.mdropDown {
+    max-height: 200px;
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+}
+
+.mdropDown > div {
+    padding: 10px;
+    border-bottom: 1px solid #dcdcdc;
+    cursor: pointer;     
+}
+
+.mdropDown > div:hover, .mdropDown > div.selected {
+    background-color: #f1f1f1cc;
+}
+
+.under-post > .row {
+    padding: 10px;
+}
+
+#rich-content {
+    border: 0;
+}
+
+.c-graduation {
+    color: #000;
+}
+
+.togglebutton label .toggle {
+    display: none !important;
+}

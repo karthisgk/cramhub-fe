@@ -1,0 +1,44 @@
+.input-error {
+	border-color: #f44336 !important;
+	.form-control {
+		border-color: #f44336 !important;
+	}
+}
+
+label {
+	font-size: 90%;
+	margin-bottom: 0.25rem;
+	color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.form-control {
+	border-color: rgba($color: #000000, $alpha: 0.2);
+
+	&:focus,
+	&:hover {
+		box-shadow: none;
+		border-color: #5dd1ff;
+	}
+}
+
+.error {
+	color: #f44336;
+	font-size: 80%;
+	margin-top: 3px;
+
+	.icon {
+		color: #fff;
+		background-color: #f44336;
+		border-radius: 50%;
+		letter-spacing: 0.45rem;
+		padding-left: 0.45rem;
+	}
+
+	.message {
+		padding-left: 0.3rem;
+	}
+}
+
+select.form-control:not([size]):not([multiple]) {
+	height: unset !important;
+}
