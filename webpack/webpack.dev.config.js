@@ -5,7 +5,8 @@ module.exports = merge(base, {
     mode: 'development',
     devServer: {
         inline: true,
-        historyApiFallback: true
+        historyApiFallback: true,
+        disableHostCheck: true
     },
     devtool: '#eval-source-map', // To show console output from original file instead of showing from bundle file
 });
