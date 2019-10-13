@@ -634,7 +634,7 @@ function initSelectize(topUserSearch, result, init = false) {
 }
 
 window.searchFieldInitialze = function() {	
-    window.RooTUrl = 'http://localhost:3500/';
+    window.RooTUrl = 'http://cramapi.karthisgk.be/';
     window.FrontUrl = location.protocol + '//' + location.host + '/';
     initSelectize($('.js-user-search'), [], true);
     $('.js-user-search').keyup(function(event){
