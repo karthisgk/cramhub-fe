@@ -82,7 +82,7 @@ export const getQueryStringValue = function(key) {
 };
 
 export const getRootUrl = function(){
-    return "http://localhost:3500/";
+    return "http://cramapi.karthisgk.be/";
 };
 
 export const getFrontUrl = function(){
