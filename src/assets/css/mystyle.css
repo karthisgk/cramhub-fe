@@ -51,3 +51,8 @@ margin: 0 0px;
 .control-icon .notification-list .notification-event {
   width: 68%;
 }
+
+
+a:link {
+  color: #fff;
+}
